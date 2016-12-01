@@ -1,14 +1,42 @@
 $(document).ready(function(){
-	$('.first').click(function(){
-		$('.first').animate({height: "130px"});
+	$(".first").hover(function(){
+    $(this).css("background-color", "yellow");
+    }, function(){
+    $(this).css("background-color", "pink");
 	});
-	$('.second').click(function(){
-		$('.second').animate({height: "30px"});	
+	$(".second").hover(function(){
+    $(this).css("background-color", "blue");
+    }, function(){
+    $(this).css("background-color", "green");
 	});
-	$('.third').click(function(){
-		$('.third').animate({height: "130px"});
+	$(".third").hover(function(){
+    $(this).css("background-color", "black");
+    }, function(){
+    $(this).css("background-color", "magenta");
 	});
-	$('.fourth').click(function(){
-		$('.fourth').animate({height: "30px"});	
+	$(".fourth").hover(function(){
+    $(this).css("background-color", "orange");
+    }, function(){
+    $(this).css("background-color", "brown");
+	});
+	$(".fifth").hover(function(){
+    $(this).css("background-color", "yellow");
+    }, function(){
+    $(this).css("background-color", "pink");
+	});
+	$(".sixth").hover(function(){
+    $(this).css("background-color", "blue");
+    }, function(){
+    $(this).css("background-color", "green");
+	});
+	$(".seventh").hover(function(){
+    $(this).css("background-color", "black");
+    }, function(){
+    $(this).css("background-color", "magenta");
+	});
+	$(".eighth").hover(function(){
+    $(this).css("background-color", "orange");
+    }, function(){
+    $(this).css("background-color", "brown");
 	});
 });
