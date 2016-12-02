@@ -4,57 +4,57 @@ display:inline-block;
 .first{
 height:100px;
 width:100px;
-border-radius:5px;
+border-radius:50px;
 background-color:red;
 
 }
 .second{
 height:100px;
 width:100px;
-border-radius:5px;
+border-radius:50px;
 background-color:green;
 
 }
 .third{
 height:100px;
 width:100px;
-border-radius:5px;
+border-radius:50px;
 background-color:powderblue;
 
 }
 .fourth{
 height:100px;
 width:100px;
-border-radius:5px;
-background-color:orange;
+border-radius:50px;
+background-color:indigo;
 
 }
 .fifth{
 height:100px;
 width:100px;
-border-radius:5px;
+border-radius:50px;
 background-color:red;
 
 }
 .sixth{
 height:100px;
 width:100px;
-border-radius:5px;
+border-radius:50px;
 background-color:green;
 
 }
 .seventh{
 height:100px;
 width:100px;
-border-radius:5px;
+border-radius:50px;
 background-color:powderblue;
 
 }
 .eighth{
 height:100px;
 width:100px;
-border-radius:5px;
-background-color:orange;
+border-radius:50px;
+background-color:violet;
 
 }
 .green{
