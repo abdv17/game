@@ -1,5 +1,31 @@
 $(document).ready(function(){
-	$(".first").hover(function(){
+    
+        
+        $('div').draggable();
+		
+		
+        $('div').click(function(){
+			
+			$('div').animate({left:'210px'});
+			$('div').animate({top:'210px'});
+			$('div').css("border-radius","10px");
+			
+			
+			for (var i = 0;i < 5;i++){
+				$('div').animate({top:'20px'});
+				$('div').animate({top:'210px'});
+				}
+		});
+       $('p').dblclick(function(){
+			
+			$('p').css("background-color","pink");
+		});
+    
+    $('p').click(function(){
+			
+			$('p').css("background-color","red");
+		});
+		$(".first").hover(function(){
     $(this).css("background-color", "yellow");
     }, function(){
     $(this).css("background-color", "pink");
@@ -39,4 +65,4 @@ $(document).ready(function(){
     }, function(){
     $(this).css("background-color", "brown");
 	});
-});
+    });
