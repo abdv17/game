@@ -12,8 +12,12 @@ $(document).ready(function(){
 			
 			
 			for (var i = 0;i < 5;i++){
-				$('div').animate({top:'20px'});
-				$('div').animate({top:'210px'});
+				$(".first,.fifth,.third,.seventh").animate({top:'+=200px'});
+				$(".first,.fifth,.third,.seventh").animate({top:'-=200px'});
+				$(".first,.fifth,.third,.seventh").css("background-color", "red");
+				$(".second,.fourth,.sixth,.eighth").animate({top:'-=200px'});
+				$(".second,.fourth,.sixth,.eighth").animate({top:'+=200px'});
+				$(".second,.fourth,.sixth,.eighth").css("background-color", "blue");
 				}
 		});
        $('p').dblclick(function(){
