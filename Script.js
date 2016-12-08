@@ -4,7 +4,7 @@ $(document).ready(function(){
         $('div').draggable();
 		
 		
-        $('div').click(function(){
+      /*  $('div').click(function(){
 			
 			$('div').animate({left:'210px'});
 			$('div').animate({top:'210px'});
@@ -19,7 +19,8 @@ $(document).ready(function(){
 				$(".second,.fourth,.sixth,.eighth").animate({top:'+=200px'});
 				$(".second,.fourth,.sixth,.eighth").css("background-color", "blue");
 				}
-		});
+		}); */
+		
        $('p').dblclick(function(){
 			
 			$('p').css("background-color","pink");
@@ -69,4 +70,17 @@ $(document).ready(function(){
     }, function(){
     $(this).css("background-color", "brown");
 	});
+	
+	
+	// writing a function to make tic tac toe
+	$(".new_1,.new_2,.new_3,.new_4,.new_5,.new_6,.new_7,.new_8,.new_9").click(function(){		
+		$(this).css("background-color","blue");
+	});
+	$(".new_1,.new_2,.new_3,.new_4,.new_5,.new_6,.new_7,.new_8,.new_9").dblclick(function(){		
+		$(this).css("background-color","green");
+	});
+	$('button').click(function(){
+		$(".new_1,.new_2,.new_3,.new_4,.new_5,.new_6,.new_7,.new_8,.new_9").css("background-color","white");
+	});
+	
     });
