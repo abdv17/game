@@ -1,3 +1,8 @@
 ﻿<Properties>
-  <WatchEntry0 value="fn_Dummy" />
+  <WatchEntry0 value="sobjPage" />
+  <WatchEntry1 value="sWebEdit" />
+  <WatchEntry2 value="sAction" />
+  <WatchEntry3 value="sWebObject" />
+  <WatchEntry4 value="sPropertValue" />
+  <WatchEntry5 value="sWebObject.exist" />
 </Properties>
