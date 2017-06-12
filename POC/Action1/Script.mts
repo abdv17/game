@@ -32,6 +32,24 @@ Public Function fn_CreateLogFiles()
 	
 End Function
 
+Dim sobjPage,sWebEdit
+Set sobjPage = Browser("Browser").Page("Page")
+Set sWebEdit = sobjPage.WebEdit("firstName")
+If fn_Web_UI_WebObjectOperations("Dummy_Test","exist",sWebEdit,"") Then
+	msgbox "managed to work mates"
+End If
+Public Function fn_Web_UI_WebObjectOperations(sFunctionName,sAction,sWebObject,sPropertValue)
+	fn_Web_UI_WebObjectOperations = False
+	Select Case sAction
+		Case "exist"
+			If sWebObject.exist Then
+				fn_Web_UI_WebObjectOperations = True
+			End If
+		Case "enabled"
+			
+		Case Else
+				msgbox "No valid case"
+	End Select
+End Function
 
-Set objPage = Browser("Browser").Page("Page")
 
