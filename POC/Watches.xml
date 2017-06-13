@@ -1,8 +1,3 @@
 ﻿<Properties>
-  <WatchEntry0 value="sobjPage" />
-  <WatchEntry1 value="sWebEdit" />
-  <WatchEntry2 value="sAction" />
-  <WatchEntry3 value="sWebObject" />
-  <WatchEntry4 value="sPropertValue" />
-  <WatchEntry5 value="sWebObject.exist" />
+  <WatchEntry0 value="Environment.Value(&quot;FunctionLogPath&quot;)" />
 </Properties>
