@@ -35,10 +35,12 @@ End Function
 Dim sobjPage,sWebEdit
 Set sobjPage = Browser("Browser").Page("Page")
 Set sWebEdit = sobjPage.WebEdit("firstName")
-If fn_Web_UI_WebObjectOperations("Dummy_Test","exist",sWebEdit,"") Then
-	msgbox "managed to work mates"
+If fn_Web_UI_WebObject_Operations("Dummy_Test","exist",sWebEdit,"") Then
+	If fn_Web_UI_WebObject_Operations("Dummy","enabled",sWebEdit,"disabled") Then
+		msgbox "Cool with exist and enabled mate"
+	End If
 End If
-Public Function fn_Web_UI_WebObjectOperations(sFunctionName,sAction,sWebObject,sPropertValue)
+Public Function fn_Web_UI_WebObject_Operations(sFunctionName,sAction,sWebObject,sPropertValue)
 	fn_Web_UI_WebObjectOperations = False
 	Select Case sAction
 		Case "exist"
@@ -46,10 +48,11 @@ Public Function fn_Web_UI_WebObjectOperations(sFunctionName,sAction,sWebObject,s
 				fn_Web_UI_WebObjectOperations = True
 			End If
 		Case "enabled"
-			
+			If sWebObject.getROProperty(sPropertyValue) = 0 Then
+				fn_Web_UI_WebObjectOperations = True
+			End If
 		Case Else
 				msgbox "No valid case"
 	End Select
 End Function
-
 
