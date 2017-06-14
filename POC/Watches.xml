@@ -1,3 +1,5 @@
 ﻿<Properties>
-  <WatchEntry0 value="Environment.Value(&quot;FunctionLogPath&quot;)" />
+  <WatchEntry0 value="fn_Web_UI_WebObject_Operations(&quot;Dummy_Test&quot;,&quot;exist&quot;,sWebEdit,&quot;&quot;)" />
+  <WatchEntry1 value="fn_Web_UI_WebObjectOperations" />
+  <WatchEntry2 value="fn_Web_UI_WebObject_Operations(&quot;Dummy_Test&quot;,&quot;exist&quot;,sWebEdit,&quot;&quot;)" />
 </Properties>
