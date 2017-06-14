@@ -1,5 +1,6 @@
 ﻿<Properties>
-  <WatchEntry0 value="fn_Web_UI_WebObject_Operations(&quot;Dummy_Test&quot;,&quot;exist&quot;,sWebEdit,&quot;&quot;)" />
-  <WatchEntry1 value="fn_Web_UI_WebObjectOperations" />
-  <WatchEntry2 value="fn_Web_UI_WebObject_Operations(&quot;Dummy_Test&quot;,&quot;exist&quot;,sWebEdit,&quot;&quot;)" />
+  <WatchEntry0 value="Flog" />
+  <WatchEntry1 value="FunctionLog" />
+  <WatchEntry2 value="sFilePath" />
+  <WatchEntry3 value="sFolderName" />
 </Properties>
