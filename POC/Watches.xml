@@ -1,6 +1,5 @@
 ﻿<Properties>
-  <WatchEntry0 value="Flog" />
-  <WatchEntry1 value="FunctionLog" />
-  <WatchEntry2 value="sFilePath" />
-  <WatchEntry3 value="sFolderName" />
+  <WatchEntry0 value="sobjPage.WebButton(sName)" />
+  <WatchEntry1 value="sImage" />
+  <WatchEntry2 value="sName" />
 </Properties>
