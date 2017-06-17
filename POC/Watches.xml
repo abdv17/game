@@ -1,5 +1,6 @@
 ﻿<Properties>
-  <WatchEntry0 value="sobjPage.WebButton(sName)" />
-  <WatchEntry1 value="sImage" />
-  <WatchEntry2 value="sName" />
+  <WatchEntry0 value="sExcelFilePath" />
+  <WatchEntry1 value="iRowCount" />
+  <WatchEntry2 value="objWrkSht" />
+  <WatchEntry3 value="objWrkBk" />
 </Properties>
