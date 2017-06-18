@@ -1,6 +1,7 @@
 ﻿<Properties>
-  <WatchEntry0 value="sExcelFilePath" />
-  <WatchEntry1 value="iRowCount" />
-  <WatchEntry2 value="objWrkSht" />
-  <WatchEntry3 value="objWrkBk" />
+  <WatchEntry0 value="iRwcnt" />
+  <WatchEntry1 value="iClncnt" />
+  <WatchEntry2 value="i" />
+  <WatchEntry3 value="j" />
+  <WatchEntry4 value="objWrkSht.Cells(i,j).value" />
 </Properties>
