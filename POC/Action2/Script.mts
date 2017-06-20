@@ -4,25 +4,31 @@
 'Update data after execution
 '
 
-sExcelFilePath = "C:\Users\Lenovo\Documents\Unified Functional Testing\POC\TestData\TestCasesData.xlsx"
+sExcelFilePath = Environment.Value("TestDir") & "\TestData\TestCasesData.xlsx"
 
 Set objExcel = CreateObject("Excel.Application")
-objExcel.Visible = True
+objExcel.Visible = False
 Set objWrkBk = objExcel.Workbooks.Open(sExcelFilePath)
 Set objWrkSht = objWrkBk.Worksheets("Sheet1")
 
 iRwcnt = objWrkSht.UsedRange.Rows.Count
 iClncnt = objWrkSht.UsedRange.Columns.Count
 For i = 1 To iRwcnt
-	For j = 1 To iClncnt
-		Print objWrkSht.Cells(i,j).Value
-	Next
+	
+		If objWrkSht.Cells(i,4).Value = "Yes" Then
+			Environment.Value("ActionWord") = objWrkSht.Cells(i,3).Value
+			Environment.Value("TCName") = objWrkSht.Cells(i,2).Value
+			Call fn_CreateWordDoc()			
+			LoadAndRunAction "C:\Users\bd2kfk\Documents\Unified Functional Testing\Practise",Environment.Value("ActionWord"),oneIteration
+		End If 
+	
 	
 Next
-
-
-
 Set objWrkSht = Nothing
 Set objWrkBk = Nothing
 objWrkBk.Close
 objExcel.Quit
+
+
+
+
