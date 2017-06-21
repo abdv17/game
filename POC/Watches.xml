@@ -1,7 +1,4 @@
 ﻿<Properties>
-  <WatchEntry0 value="Environment.Value(&quot;ImagePath&quot;)" />
-  <WatchEntry1 value="(Environment.Value(&quot;ScreenshotPath&quot;))" />
-  <WatchEntry2 value="sStepName" />
-  <WatchEntry3 value="sobjPage.toString()" />
-  <WatchEntry4 value="objPage.toString()" />
+  <WatchEntry0 value="objWord" />
+  <WatchEntry1 value="fn_DummyWrd" />
 </Properties>
