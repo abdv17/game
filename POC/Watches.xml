@@ -1,6 +1,3 @@
 ﻿<Properties>
-  <WatchEntry0 value="Flog" />
-  <WatchEntry1 value="FunctionLog" />
-  <WatchEntry2 value="sFilePath" />
-  <WatchEntry3 value="sFolderName" />
+  <WatchEntry0 value="Environment.Value(&quot;bExecStatus&quot;)" />
 </Properties>
