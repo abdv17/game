@@ -1,4 +1,5 @@
 ﻿<Properties>
-  <WatchEntry0 value="objWord" />
-  <WatchEntry1 value="fn_DummyWrd" />
+  <WatchEntry0 value="fn_Web_UI_WebObject_Operations(&quot;WebObject_Exist&quot;,&quot;exist&quot;,sWebObject,&quot;&quot;)" />
+  <WatchEntry1 value="Parameter(&quot;Status&quot;)" />
+  <WatchEntry2 value="objExcel" />
 </Properties>
